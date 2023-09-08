@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+@Html.Action("PartialHead")
+   
+<body>
+    <!--header-->
+    @Html.Action("PartialNavbar")
+    <!--/header-->
+    <!-- Domain Modal -->
+    @Html.Action("PartialQuickContact")
+    <!-- //Domain modal -->
+    <!-- banner section -->
+    @Html.Action("PartialFeature")
+    <!-- //banner section -->
+    <!-- home page about section -->
+    @Html.Action("PartialService")
+    <!-- //home page about section -->
+    <!-- home page about section -->
+    @Html.Action("PartialSkill")
+    <!-- //home page about section -->
+    @Html.Action("PartialAward")
+    <!-- home page about section -->
+    @Html.Action("PartialTestimonial")
+    <!-- //home page about section -->
+    <!-- home page about section -->
+    @Html.Action("PartialClientPartner")
+    <!-- //home page about section -->
+    <!-- home page contact section -->
+    @Html.Action("Index","Contact")
+    <!-- //home page contact section -->
+   
+
+</body>
+
+</html>

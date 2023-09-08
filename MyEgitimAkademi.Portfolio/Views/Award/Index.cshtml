@@ -1,0 +1,33 @@
+﻿@model List<MyEgitimAkademi.Portfolio.Models.Award>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Ödüllerim Sayfası</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ödül Adı</th>
+        <th>Ödül Açıklama</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+      
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AwardID</td>
+            <td>@item.AwardTitle</td>
+            <td>@item.AwardDescription</td>
+
+            <td><a href="/Award/DeleteAward/@item.AwardID" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Award/UpdateAward/@item.AwardID" class="btn btn-outline-success">Güncelle</a></td>
+           
+        </tr>
+    }
+</table>
+<a href="/Award/AddAward/" class="btn btn-outline-success">Yeni Ödül Girişi</a>
+
