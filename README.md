@@ -1,3 +1,4 @@
+
 # MyEgitimAkademi.Portfolio
 Portfolio_Projem
 
@@ -30,6 +31,14 @@ Projeden fotograflar ekledim.
 ***************************************
 
 ![anasayfa-contact](https://github.com/bora1990/MyEgitimAkademi.Portfolio/assets/99908441/57b1fa01-169b-47db-ac18-5bcda9b1897b)
+
+***************************************
+![register](https://github.com/bora1990/MyEgitimAkademi.Portfolio/assets/99908441/86ba976a-00f8-4a88-8704-dab307b709bd)
+
+***************************************
+
+![login](https://github.com/bora1990/MyEgitimAkademi.Portfolio/assets/99908441/0252e229-c0f6-4e92-a9d3-534f72e60abc)
+
 ***************************************
 ![admin-skill](https://github.com/bora1990/MyEgitimAkademi.Portfolio/assets/99908441/a0a40e9d-ced3-4b4b-838b-b5e6c6a73beb)
 
@@ -40,6 +49,7 @@ Projeden fotograflar ekledim.
 ***************************************
 
 ![admin-statistics](https://github.com/bora1990/MyEgitimAkademi.Portfolio/assets/99908441/004f185f-9642-4141-9467-2607ba4b6d3e)
+
 
 
 # ----Kurulum---
