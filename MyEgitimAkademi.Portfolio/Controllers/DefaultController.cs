@@ -10,6 +10,7 @@ namespace MyEgitimAkademi.Portfolio.Controllers
     public class DefaultController : Controller
     {
         MyPortfolioDbEntities1 db=new MyPortfolioDbEntities1();
+
         public ActionResult Index()
         {
             return View();
@@ -61,8 +62,6 @@ namespace MyEgitimAkademi.Portfolio.Controllers
             var value=db.ClientPartner.FirstOrDefault();
             return PartialView(value);
         }
-
-
 
     }
 }

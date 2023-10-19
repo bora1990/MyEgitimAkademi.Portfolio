@@ -9,8 +9,7 @@ namespace MyEgitimAkademi.Portfolio.Controllers
 {
     public class ContactController : Controller
     {
-        // GET: Contact
-
+       
         MyPortfolioDbEntities1 db=new MyPortfolioDbEntities1();
 
         [Authorize]
@@ -20,8 +19,6 @@ namespace MyEgitimAkademi.Portfolio.Controllers
             ViewBag.phone=db.Address.Select(x=>x.Phone).FirstOrDefault();   
             ViewBag.addressDetail=db.Address.Select(x=>x.AddressDetail).FirstOrDefault();
             ViewBag.mail=db.Address.Select(x=>x.Mail).FirstOrDefault(); 
-
-
             return View();
         }
         [HttpPost]
